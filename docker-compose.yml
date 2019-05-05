@@ -1,0 +1,21 @@
+version: '3.5'
+
+networks:
+  traefik-network:
+    external: true
+
+services:
+  site:
+    image: 'mikafouenski/mickael-bernardini.fr'
+    container_name: 'site'
+    restart: ${RESTART}
+    volumes:
+      - ${MEDIA_WWW}/${DOMAIN}/assets:/usr/share/nginx/html/assets:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik-network"
+      - "traefik.backend=site"
+      - "traefik.frontend.rule=Host:${DOMAIN}"
+    networks:
+      - traefik-network
+

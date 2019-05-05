@@ -1,0 +1,21 @@
+title: Education
+formations:
+  - title: High-School Degree
+    icon: paper-plane
+    year: 2013
+    description: "Sciences Technique de l'Industrie du Développement Durable, spécialité
+      Système Numérique et Informatique, Lycée Pierre Gilles de Gennes, Académie Aix-Marseille."
+  - title: Associate’s Degree
+    icon: plane
+    year: 2015
+    description: Informatique, Aix-Marseille université, IUT Aix.
+  - title: Bachelor of Science
+    icon: fighter-jet
+    year: 2016
+    description: Informatique, Aix-Marseille université, pôle Montperrin.
+  - title: Master’s degree
+    icon: rocket
+    year: 2018
+    description: Fiabilité, sécurité et intégration logicielle, Aix-Marseille université,
+      pôle Luminy.
+

@@ -1,0 +1,3 @@
+[submodule "themes/Potassium"]
+	path = themes/Potassium
+	url = https://github.com/mikafouenski/Potassium
