@@ -7,7 +7,7 @@ languages:
     languageName: English
     weight: 1
 MetaDataFormat: "yaml"
-theme: "Potassium"
+theme: "Portrait"
 params:
   description: "Mickael Bernardini Open source personal resume site"
   featuredimage: "assets/face.png"
