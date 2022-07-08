@@ -8,7 +8,7 @@ WORKDIR /site
 RUN hugo -v
 
 # Minify things
-RUN go get github.com/tdewolff/minify/cmd/minify
+RUN go install github.com/tdewolff/minify/cmd/minify@latest
 RUN minify -vr --match=\.js --type=js -o public public
 RUN minify -vr --match=\.css --type=css -o public public
 RUN minify -vr --match=\.html --type=html -o public public
